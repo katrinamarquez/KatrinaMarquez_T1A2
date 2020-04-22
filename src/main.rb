@@ -1,3 +1,4 @@
+#FIX COMMENTS
 require_relative 'messages.rb'          # Importing methods from welcome.rb
 require_relative 'product_menu.rb'      # Importing methods from product_menu.rb
 
