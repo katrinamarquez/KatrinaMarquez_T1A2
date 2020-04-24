@@ -39,3 +39,16 @@ Coding completed:
 
 First bug card created. 
 [SCREENSHOT OF BUG CARD FOR DUPLICATE]
+
+# 23/04/2020 
+Coding completed:
+- Methods for when a customer is purchasing a product. This took a while as I wanted to show the total price of the order after adding an item to the order array.
+- Resolved bugs that came about from coding yesterday. 
+
+# 24/04/2020 
+Coding completed:
+- Added in colorize ruby gem. Make identifying parts of the text more obvious to the user in the terminal. 
+
+Documentation completed: 
+- User stories. It was ok to do this at this point during development as most of the user stories were mapped out in the flow chart. 
+- (NEEDS TO BE REVIEWED): The order of the flow chart and what information is displayed has changed slightly, as a result of issues encountered when writing the methods. 
