@@ -29,6 +29,7 @@ while app_on
       puts LINE
       # Displaying items for sale from product_menu.rb               
       product_list           
+
       app_on = false
     
     # Option selected: Supplier > Add new item for sale
@@ -47,6 +48,7 @@ while app_on
 
       # Show supplier new list of items with new product 
       product_list 
+
       app_on = false
 
     else
@@ -60,13 +62,22 @@ while app_on
     puts LINE
     # Display list of products for sale.                  
     product_list
+    # Question from messages.rb
+    puts order
+    # Response
+    customer_order = gets.chomp.to_s
+    # Question from messages.rb 
+    puts quantity
+    # Response
+    amount = gets.chomp.to_i
+
     app_on = false
-    
+  
   else
     # Message if user does not enter s or c when asked if they are a supplier or customer?
-    puts "Unable to find this user type".colorize(:red)    
+    # puts "Unable to find this user type".colorize(:red)
+    puts "Please enter valid commands".colorize(:red)
+    
     app_on = false
   end
 end
-
-

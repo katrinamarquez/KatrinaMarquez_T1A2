@@ -49,6 +49,9 @@ Coding completed:
 Coding completed:
 - Added in colorize ruby gem. Make identifying parts of the text more obvious to the user in the terminal. 
 
+Tests completed:
+- Logging tests for current code that is working as expected. 
+
 Documentation completed: 
 - User stories. It was ok to do this at this point during development as most of the user stories were mapped out in the flow chart. 
 - (NEEDS TO BE REVIEWED): The order of the flow chart and what information is displayed has changed slightly, as a result of issues encountered when writing the methods. 
