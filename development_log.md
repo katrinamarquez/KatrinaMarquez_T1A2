@@ -78,14 +78,17 @@ Trello Board:
 Coding completed:
 - Review and refactored code for when customer is purchasing a product. Difficulty getting total figure for customer orders printing. 
 
-The logic required for the customer experience when ordering the app was difficult. Initally I thought it was 'medium' effort for project tracking purposes. However, it became evident that it should be changed to 'hard' in Trello. This day was spent rewriting and researching different ways to write this logic easier. I had difficulty around the looping and getting the right information from hases and arrays and figuring out where messages and logic should sit on the files. See product.rb page > def order_product for final logic.  
+The logic required for the customer experience when ordering the app was difficult. Initally I thought it was 'medium' effort for project tracking purposes. However, it became evident that it should be changed to 'hard' in Trello. This day was spent rewriting and researching different ways to write this logic easier. Additionally, trying multiple ways of writing it to get the list of products, list of order and dollar figure for the order connecting. 
+
+I had difficulty around the looping and getting the right information from hases and arrays and figuring out where messages and logic should sit on the files. See product.rb page > def order_product for final logic.  
 
 # 26/04/2020 
 Coding completed:
-- Total dollar value of customer order completed. Tidied up code to ensure that invoice for customer is printing correctly. 
+- Total dollar value of customer order completed. Tidied up code to ensure that invoice for customer is printing correctly. Changed method of calculating total invoice for customer order to case statement. 
 - Added class for customer. Create a class when the customer is adding in their contact details after ordering. This input from the customer would finalise the customers order and exit the app. 
 - Added in closing messages to make looping of while loop cleaner. General tidy up of supplier and customer options to make sure that their journey is flowing as per updated flow charts.  
-- Adding in lines to make terminal app visually appealing to the user. 
+- Adding in lines and breaks to make terminal app visually appealing to the user. 
+- Updated logic if user selects they are a supplier to case/when/else statement rather than if/elsif/else. This made the main piece of the code easier to read.
 
 Documentation:
 - Updated control flows for customer as the order for prompts for user input and exit functionality had changed during building phase. See version 2 of customer flow chart. 
