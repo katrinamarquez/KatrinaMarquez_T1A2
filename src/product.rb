@@ -19,7 +19,6 @@ def product_list
 end
 
 def order_product
-
   response = true
   order_list = []
 
