@@ -1,7 +1,6 @@
 # 20/04/2020
 Majority of the afternoon was spent figuring out which idea to build for the ruby terminal app assessment. My initial idea was an cooking guide for steak. It would cover storage, cooking and different cuts. The main issue was that this may have limited scope to cover enough methods, classes, ruby gems, etc. 
 
-[INSERT IMAGE OF SCOPING DOCS]
 
 As a result, I started scoping an app where customer can order products from suppliers. Suppliers and customers would have different options when using the app. This version of the app would allow me to extend scope if required.
 
@@ -19,15 +18,16 @@ During the flow chart creation process I mapped out:
 - classes; and 
 - inputs required from users. 
 
-[INSERT IMAGE OF FLOW CHARTS]
+![Flow Chart] (/Documents/SupplierMate_Flow_Version2.pdf)
 
-Trello boards were created which mapped out documentation to be completed, methods and classes. Labels indiciate level of difficulty. 
-
-[SCREENSHOT OF TRELLO BOARD]
+Trello boards were created which mapped out documentation to be completed, methods and classes. Labels indiciate level of difficulty. Categories are:
+- Low 
+- Medium 
+- High 
 
 Coding started for the first page users encounter when using the terminal app. 
 
-[SCREENSHOT OF WELCOME MESSAGE TRELLO CARD]
+![Trello Card Example] (Documents/Welcome Message Trello Card.png)
 
 # 22/04/2020 
 Coding completed:
@@ -39,7 +39,7 @@ Coding completed:
 - Product class
 
 First bug card created for list of products for sale being printed twice in the terminal. 
-[SCREENSHOT OF BUG CARD FOR DUPLICATE]
+![Example of Bug Card] (Documents/Example Bug Card.png)
 
 # 23/04/2020 
 Coding completed:
@@ -52,7 +52,7 @@ While writing the code for the customer options I encountered a few issues with 
 The main reason for the change resulted from how the options were flowing from the input by the user. Requesting the customer details at the begining significantly impacted and made it difficult to write logic to create the final invoice and adding new items. Version 2 of updated customer flow chart will be updated as changes have been reflected in the code only. 
 
 Tello Board:
-[SCREENSHOT OF TRELLO BOARD]
+![Trello Board 23 April] (Documents/Board at 23 April 2020.png)
 
 # 24/04/2020 
 Coding completed:
@@ -72,7 +72,7 @@ Documentation completed:
 - (NEEDS TO BE REVIEWED): The order of the flow chart and what information is displayed has changed slightly, as a result of issues encountered when writing the methods. 
 
 Trello Board:
-[SCREENSHOT OF TRELLO BOARD]
+![Trello Board 24 April] (Documents/Board at 24 April 2020.png)
 
 # 25/04/2020 
 Coding completed:
@@ -94,4 +94,5 @@ Documentation:
 - Updated control flows for customer as the order for prompts for user input and exit functionality had changed during building phase. See version 2 of customer flow chart. 
 
 Trello Board:
-[SCREENSHOT OF TRELLO BOARD]
+![Trello Board 26 April] (Documents/Board at 26 April 2020.png)
+
