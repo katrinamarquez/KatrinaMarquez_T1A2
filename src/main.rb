@@ -60,19 +60,11 @@ while app_on
   # Use selects customer.
   elsif user_input == "c"
     puts LINE
-    # Display list of products for sale.                  
-    product_list
-    # Question from messages.rb
-    puts order
-    # Response
-    customer_order = gets.chomp.to_s
-    # Question from messages.rb 
-    puts quantity
-    # Response
-    amount = gets.chomp.to_i
 
-    app_on = false
-  
+    products = order_product
+
+    # invoice(products)
+    
   else
     # Message if user does not enter s or c when asked if they are a supplier or customer?
     # puts "Unable to find this user type".colorize(:red)
