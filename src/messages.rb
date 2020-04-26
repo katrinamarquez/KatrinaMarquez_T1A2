@@ -30,18 +30,3 @@ def supplier_menu
   3:  Update your contact details".colorize(:blue)   
   puts LINE
 end   
-
-# After customer is shown list of products. Needs to put in order. 
-def order
-  puts LINE
-  puts "What would you like to order?".colorize(:blue)
-  puts LINE
-end
-
-# Message asking how much the customer would like to order
-def quantity
-  puts LINE
-  puts "How much would you like to order?".colorize(:blue)
-  puts LINE
-end 
-

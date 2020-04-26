@@ -61,15 +61,13 @@ while app_on
   elsif user_input == "c"
     puts LINE
 
-    products = order_product
-
+    order_product
+    app_on = false
     # invoice(products)
     
   else
     # Message if user does not enter s or c when asked if they are a supplier or customer?
-    # puts "Unable to find this user type".colorize(:red)
     puts "Please enter valid commands".colorize(:red)
-    
     app_on = false
   end
 end

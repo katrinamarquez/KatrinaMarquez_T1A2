@@ -42,9 +42,30 @@ def order_product
     user_response = gets.chomp
 
     # Display summary of results 
-    if user_response == "n"      
-      puts "Items Ordered and Quantity:"
+    if user_response == "n"
+
       puts order_list
+      # Blank array to store total values for each item ordered. 
+      cost_of_order = []
+      # Look through order_list hash, calculate total value for each key and add together.    
+      order_list.each do |order, quantity|
+        case 
+        when order == "Clay Bricks" 
+          cost_of_order << 10 * quantity
+        when order == "Cement"
+          cost_of_order << 10 * quantity
+        when order == "Pine Timber"
+          cost_of_order << 10 * quantity
+        when order == "Plasterboard"
+          cost_of_order << 10 * quantity
+        when order == "Foil Insulation"
+          cost_of_order << 10 * quantity  
+        else 
+          puts "Error occurred in calculating total invoice. Please start order again.".colorize(:red)
+        end 
+      end
+      # Calculate the total value of the order. 
+      puts "Invoice Total:    $ #{cost_of_order.sum}".colorize(:light_blue)
       response = false
     else
       next
@@ -52,7 +73,7 @@ def order_product
   end
 end
 
-
+# OLD CODE
       # sum = 0
       # puts "SupplierMate Invoice"
       # puts "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
