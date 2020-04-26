@@ -55,3 +55,16 @@ Tests completed:
 Documentation completed: 
 - User stories. It was ok to do this at this point during development as most of the user stories were mapped out in the flow chart. 
 - (NEEDS TO BE REVIEWED): The order of the flow chart and what information is displayed has changed slightly, as a result of issues encountered when writing the methods. 
+
+# 25/04/2020 
+Coding completed:
+- Review and refactored code for when customer is purchasing a product. Difficulty getting total figure for customer orders printing. 
+
+# 26/04/2020 
+Coding completed:
+- Total dollar value of customer order completed. Tidied up code to ensure that invoice for customer is printing correctly. 
+- Added class for customer. Adding contact details to order. 
+- Added in closing messages to make looping of while loop cleaner. General tidy up of closing messages. 
+
+Documentation:
+- Updated control flows. 

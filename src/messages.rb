@@ -1,7 +1,7 @@
 require "colorize"
 # Make interface look better in terminal. 
 LINE = "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
-DIVIDER = " --- "
+DIVIDER = " - - -"
 SPACE = ""
 
 def welcome
@@ -16,6 +16,7 @@ def user_type
   puts "Enter relevant letter:".colorize(:blue)
   puts "s: Supplier".colorize(:blue)
   puts "c: Customer".colorize(:blue)
+  puts "e: Exit".colorize(:blue)
   puts LINE
 end 
 
@@ -27,6 +28,21 @@ def supplier_menu
   puts "
   1:  View items for sale
   2:  Add new item for sale
-  3:  Update your contact details".colorize(:blue)   
+  3:  Update your contact details
+  4:  Exit".colorize(:blue)   
   puts LINE
 end   
+
+# Message shows when they input an order. 
+def closing
+  puts LINE
+  puts "Thanks for visiting! See you later!".colorize(:light_blue) 
+end 
+
+# When loop takes them back to the begining of the while loop. 
+def rerouting
+  puts LINE
+  puts "Rerouting you back to the main menu for all options".colorize(:light_blue)  
+  puts LINE
+end     
+
