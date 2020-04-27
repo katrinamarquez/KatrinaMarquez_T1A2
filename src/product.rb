@@ -27,10 +27,10 @@ def order_product
     puts LINE
     puts "What would you like to order?".colorize(:blue)
     puts "(Enter in lower case only)".colorize(:blue)
-    order = gets.chomp.to_s
+    order = STDIN.gets.chomp.to_s
     puts DIVIDER
     puts "How much would you like to order?".colorize(:blue)
-    quantity = gets.chomp.to_i
+    quantity = STDIN.gets.chomp.to_i
 
     # Loop through hash. If product matches add to order_list array. 
     if PRODUCTS.key?(order)
@@ -48,7 +48,7 @@ def order_product
     puts "n: No".colorize(:blue)
     puts DIVIDER
     # User selects y or n. 
-    user_response = gets.chomp
+    user_response = STDIN.gets.chomp
     puts LINE
 
     # Display summary of results 
@@ -88,11 +88,11 @@ def order_product
       # Get customer details and create customer class. 
       puts "We need to collect your details".colorize(:blue)
       puts "Enter Name:"
-      customer_name = gets.chomp.to_s
+      customer_name = STDIN.gets.chomp.to_s
       puts "Shipping Address:"
-      address = gets.chomp.to_s
+      address = STDIN.gets.chomp.to_s
       puts "Telephone:"
-      phone = gets.chomp.to_s
+      phone = STDIN.gets.chomp.to_s
 
       customer_details = Customer.new(customer_name, address, phone)
       puts closing

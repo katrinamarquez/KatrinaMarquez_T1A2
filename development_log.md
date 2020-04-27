@@ -102,9 +102,12 @@ Trello Board:
 Coding:
 - Added in ruby gem tty-prompt. This makes menu selection with the loops easier to manage. Looping makes sense and is less confusing for the user. 
 - Added in command line argument. App offers a personalised welcome message to the app (if they include it in the command line) or generic welcome message (if they do not include it in command line).
+- Resolving issues with command line argument. 
 - TTY-Prompt broke customer menu. Previously this was indicated by s and c and changed to tty-prompt 1 and 2 option. 
 
 Documentation:
 - Running tests on tty-prompt changes. 
 - Added in ASCII art to make UI appealing.
 - Readme.md completed. 
+
+Finalisation of code.

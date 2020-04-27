@@ -6,7 +6,7 @@ SPACE = ""
 
 def welcome
   puts LINE
-  puts "🅂🅄🄿🄿🄻🄸🄴🅁🄼🄰🅃🄴"
+  puts "SupplierMate"
 end
 
 # User has selected supplier.
@@ -25,7 +25,7 @@ end
 # Message shows when they input an order. 
 def closing
   puts LINE
-  puts "🅃🄷🄰🄽🄺🅂 🄵🄾🅁 🅅🄸🅂🄸🅃🄸🄽🄶"
+  puts "Thanks for visiting!"
 end 
 
 # When loop takes them back to the begining of the while loop. 

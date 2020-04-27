@@ -11,15 +11,12 @@ require_relative 'classes/customer.rb'
 # Importing customer class from supplier.rb
 require_relative 'classes/supplier.rb'
 
-name = ARGV.first 
 puts welcome
 # Command line argument welcoming user. ruby main.rb [name]. 
-if ARGV.length > 0
-  puts "Welcome #{name}!"
-# Fall back is only ruby main.rb is entered. 
-else ARGV.length == 0
-    puts "Welcome friend!"
-end 
+if ARGV.first
+  name = ARGV.first
+  puts "Welcome #{name}"
+end
 # Local variable acting as condition for while loop of app. 
 app_on = true   
 
@@ -33,7 +30,7 @@ while app_on
   if response == "Supplier"
     puts supplier_menu
     # Supplier selects which menu option.
-    supplier_input = gets.chomp.to_i
+    supplier_input = STDIN.gets.chomp.to_i
 
     # Option selected: Supplier > View items for sale
     if supplier_input == 1    
@@ -46,9 +43,9 @@ while app_on
     elsif supplier_input == 2
       puts LINE
       puts "Product name: ".colorize(:blue)
-      new_product = gets.chomp.to_s
+      new_product = STDIN.gets.chomp.to_s
       puts "Price: ".colorize(:blue)
-      new_price = gets.chomp.to_s
+      new_price = STDIN.gets.chomp.to_i
 
       # Using class product to add new items for sale
       new_item = Supply.new(new_product, new_price)
@@ -66,11 +63,11 @@ while app_on
     elsif supplier_input == 3
       puts "Follow the prompts to update business details".colorize(:blue)
       puts "Business name:".colorize(:blue)
-      name = gets.chomp.to_s
+      name = STDIN.gets.chomp.to_s
       puts "Business address:".colorize(:blue)
-      business_address = gets.chomp.to_s
+      business_address = STDIN.gets.chomp.to_s
       puts "Business telephone:".colorize(:blue)
-      phone = gets.chomp.to_s
+      phone = STDIN.gets.chomp.to_s
       
       # Creating new supplier class when option is selected. 
       new_details = Supplier.new(name, business_address, phone)
