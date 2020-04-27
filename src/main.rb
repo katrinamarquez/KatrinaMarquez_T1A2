@@ -76,7 +76,7 @@ while app_on
       # Creating new supplier class when option is selected. 
       new_details = Supplier.new(name, business_address, phone)
       puts LINE
-      puts "Details updated".colorize(:light_blue) 
+      puts "Details updated".colorize(:blue) 
       puts closing
       app_on = false
 

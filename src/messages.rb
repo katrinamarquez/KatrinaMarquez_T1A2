@@ -7,7 +7,9 @@ SPACE = ""
 
 def welcome
   puts LINE
-  puts "SupplierMate".colorize(:blue) 
+  puts "
+  █▀ █░█ █▀█ █▀█ █░░ █ █▀▀ █▀█ █▀▄▀█ ▄▀█ ▀█▀ █▀▀
+  ▄█ █▄█ █▀▀ █▀▀ █▄▄ █ ██▄ █▀▄ █░▀░█ █▀█ ░█░ ██▄"
 end
 
 # User has selected supplier.
@@ -26,7 +28,9 @@ end
 # Message shows when they input an order. 
 def closing
   puts LINE
-  puts "Thanks for visiting!".colorize(:blue)
+  puts "
+  ▀█▀ █░█ ▄▀█ █▄░█ █▄▀ █▀   █▀▀ █▀█ █▀█   █░█ █ █▀ █ ▀█▀ █ █▄░█ █▀▀ █
+  ░█░ █▀█ █▀█ █░▀█ █░█ ▄█   █▀░ █▄█ █▀▄   ▀▄▀ █ ▄█ █ ░█░ █ █░▀█ █▄█ ▄"
 end 
 
 # When loop takes them back to the begining of the while loop. 
