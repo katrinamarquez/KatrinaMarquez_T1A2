@@ -1,4 +1,5 @@
 require "colorize"
+require "tty-prompt"
 # Importing methods from welcome.rb
 require_relative 'messages.rb'  
 # Importing methods from product_menu.rb
@@ -17,13 +18,20 @@ app_on = true
 # Loop will run while start_app is true. Loop will end when app is set to false.
 while app_on
   # Welcome message asking for type of user from welcome_menus.rb.     
-  puts user_type
+  prompt = TTY::Prompt.new
+  prompt.select("Welcome! Are you a Supplier or Customer?") do |menu|
+    menu.default 1
+    
+    menu.choice 'Supplier', 1
+    menu.choice 'Customer', 2
+    menu.choice 'Exit', 3
+  end
   # User indicates if they are a supplier or customer.
-  user_input = gets.chomp.to_s.downcase    
+  # user_input = gets.chomp.to_s.downcase    
 
-  case
+  case 
   # User selects supplier.  
-  when user_input == "s"     
+  when 1  
     puts supplier_menu
     # Supplier selects which menu option.
     supplier_input = gets.chomp.to_i
@@ -84,14 +92,13 @@ while app_on
     end
   
   # Use selects customer.
-  when user_input == "c"
+  when 2
     puts LINE
     # Function which runs customer through order. 
     order_product
     app_on = false
   
-  when user_input == "e"
-    puts closing
+  when 3
     app_on = false
 
   else

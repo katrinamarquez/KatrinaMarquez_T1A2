@@ -96,3 +96,10 @@ Documentation:
 Trello Board:
 ![Trello Board 26 April] (Documents/Board at 26 April 2020.png)
 
+# 27/04/2020
+Coding:
+- Added in ruby gem tty-prompt. This makes menu selection with the loops easier to manage. Looping makes sense and is less confusing for the user. 
+
+Documentation:
+- Running tests on tty-prompt changes. 
+- Added in ASCII art to make UI appealing.

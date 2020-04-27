@@ -1,4 +1,5 @@
 require "colorize"
+require "tty-prompt"
 # Make interface look better in terminal. 
 LINE = "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 DIVIDER = " - - -"
@@ -6,19 +7,8 @@ SPACE = ""
 
 def welcome
   puts LINE
-  puts "SupplierMate"
+  puts "SupplierMate".colorize(:blue) 
 end
-
-# Needs to differentiate between supplier and consumer to figure out which menu options.
-def user_type   
-  puts "Are you a Supplier or Customer?".colorize(:blue)
-  puts SPACE
-  puts "Enter relevant letter:".colorize(:blue)
-  puts "s: Supplier".colorize(:blue)
-  puts "c: Customer".colorize(:blue)
-  puts "e: Exit".colorize(:blue)
-  puts LINE
-end 
 
 # User has selected supplier.
 def supplier_menu   
@@ -36,7 +26,7 @@ end
 # Message shows when they input an order. 
 def closing
   puts LINE
-  puts "Thanks for visiting! See you later!".colorize(:light_blue) 
+  puts "Thanks for visiting!".colorize(:blue)
 end 
 
 # When loop takes them back to the begining of the while loop. 
