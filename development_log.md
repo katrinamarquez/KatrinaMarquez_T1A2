@@ -1,3 +1,5 @@
+# Timeline
+
 ## 20/04/2020
 Majority of the afternoon was spent figuring out which idea to build for the ruby terminal app assessment. My initial idea was an cooking guide for steak. It would cover storage, cooking and different cuts. The main issue was that this may have limited scope to cover enough methods, classes, ruby gems, etc. 
 

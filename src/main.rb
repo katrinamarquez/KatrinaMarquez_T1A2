@@ -11,7 +11,14 @@ require_relative 'classes/customer.rb'
 # Importing customer class from supplier.rb
 require_relative 'classes/supplier.rb'
 
+name = ARGV.first 
 puts welcome
+# Command line argument welcoming user [name] to the app. 
+if ARGV.length > 0
+  puts "Welcome #{name}!"
+else ARGV.length == 0
+    puts "Welcome friend!"
+end 
 # Local variable acting as condition for while loop of app. 
 app_on = true   
 
@@ -19,12 +26,11 @@ app_on = true
 while app_on
   # Welcome message asking for type of user from welcome_menus.rb.     
   prompt = TTY::Prompt.new
-  prompt.select("Welcome! Are you a Supplier or Customer?") do |menu|
+  prompt.select("Are you a Supplier or Customer?") do |menu|
     menu.default 1
     
     menu.choice 'Supplier', 1
     menu.choice 'Customer', 2
-    menu.choice 'Exit', 3
   end
   # User indicates if they are a supplier or customer.
   # user_input = gets.chomp.to_s.downcase    
@@ -96,9 +102,6 @@ while app_on
     puts LINE
     # Function which runs customer through order. 
     order_product
-    app_on = false
-  
-  when 3
     app_on = false
 
   else
