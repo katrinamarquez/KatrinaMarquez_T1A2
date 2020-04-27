@@ -81,10 +81,6 @@ while app_on
       puts closing 
       app_on = false 
 
-    else
-      # Message if user does not enter 1, 2 or 3 from supplier menu.
-      puts = "Unable to recognise option selected".colorize(:red)    
-      app_on = false
     end
   
   # Use selects customer.

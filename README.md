@@ -78,7 +78,7 @@ Control flow for user type - supplier.
 ![Supplier Flow Chart] (Documents/Supplier Flow Chart.png)
 
 Error messages that will show to supplier:
-- If the supplier selects an option type that is not avaliable from the supplier menu, an error message will appear highlighting the invalid entry type. This error message will be displayed in red indicating to the user that they need to re-do some action. 
+- If the supplier selects an option type that is not avaliable from the supplier menu, the user will be then asked to select if they are a supplier or consumer again. This can be re-written after refactoring of the code.  
 
 ## Customer User Experience 
 
