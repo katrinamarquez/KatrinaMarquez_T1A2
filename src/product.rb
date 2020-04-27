@@ -55,6 +55,7 @@ def order_product
     if user_response == "n"
 
       # Display order_list in a user friendly view.
+      puts "Summary of Order"
       order_list.each do |order, quantity|
         puts ""
         puts "Item: #{order} - Units: #{quantity}".colorize(:light_blue)
