@@ -1,7 +1,5 @@
 # SupplierMate
 
-![Main Menu] (Documents/Main Menu.png)
-
 ###### Ruby Terminal App
 ###### by Katrina Marquez 
 
@@ -75,7 +73,7 @@ For suppliers specifically:
 ## Supplier User Experience 
 Control flow for user type - supplier. 
 
-![Supplier Flow Chart] (Documents/Supplier Flow Chart.png)
+![Supplier Flow Chart] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Supplier%20Flow%20Chart.png)
 
 Error messages that will show to supplier:
 - If the supplier selects an option type that is not avaliable from the supplier menu, the user will be then asked to select if they are a supplier or consumer again. This can be re-written after refactoring of the code.  
@@ -84,7 +82,7 @@ Error messages that will show to supplier:
 
 Control flow for user type - customer. Below is the final version of the control flow. This control flow changed since the initial scoping of the idea. 
 
-![Customer Flow Chart] (Documents/Customer Flow Chart.png)
+![Customer Flow Chart] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Customer%20Flow%20Chart.png)
 
 Error messages that will show to supplier:
 - If the customer enters an item that doesn't match what is listed on the list of products for sale, an invalid input error message will appear and prompt the user to start the order process again. This message will appear after they have entered a quantity. This error message will be displayed in red indicating to the user that they need to re-do some action. 

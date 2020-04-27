@@ -20,7 +20,9 @@ During the flow chart creation process I mapped out:
 - classes; and 
 - inputs required from users. 
 
-![Flow Chart] (/Documents/SupplierMate_Flow_Version2.pdf)
+![Flow Chart] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Supplier%20Flow%20Chart.png)
+
+![Flow Chart] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Customer%20Flow%20Chart.png)
 
 Trello boards were created which mapped out documentation to be completed, methods and classes. Labels indiciate level of difficulty. Categories are:
 - Low 
@@ -41,7 +43,7 @@ Coding completed:
 - Product class
 
 First bug card created for list of products for sale being printed twice in the terminal. 
-![Example of Bug Card] (Documents/Example Bug Card.png)
+![Example of Bug Card] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Example%20Bug%20Card.png)
 
 ## 23/04/2020 
 Coding completed:
@@ -54,7 +56,7 @@ While writing the code for the customer options I encountered a few issues with 
 The main reason for the change resulted from how the options were flowing from the input by the user. Requesting the customer details at the begining significantly impacted and made it difficult to write logic to create the final invoice and adding new items. Version 2 of updated customer flow chart will be updated as changes have been reflected in the code only. 
 
 Tello Board:
-![Trello Board 23 April] (Documents/Board at 23 April 2020.png)
+![Trello Board 23 April] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Board%20at%2023%20April%202020.png)
 
 ## 24/04/2020 
 Coding completed:
@@ -74,7 +76,7 @@ Documentation completed:
 - (NEEDS TO BE REVIEWED): The order of the flow chart and what information is displayed has changed slightly, as a result of issues encountered when writing the methods. 
 
 Trello Board:
-![Trello Board 24 April] (Documents/Board at 24 April 2020.png)
+![Trello Board 24 April] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Board%20at%2024%20April%202020.png)
 
 ## 25/04/2020 
 Coding completed:
@@ -96,7 +98,7 @@ Documentation:
 - Updated control flows for customer as the order for prompts for user input and exit functionality had changed during building phase. See version 2 of customer flow chart. 
 
 Trello Board:
-![Trello Board 26 April] (Documents/Board at 26 April 2020.png)
+![Trello Board 26 April] (https://github.com/katrinamarquez/KatrinaMarquez_T1A2/blob/master/Documents/Board%20at%2026%20April%202020.png)
 
 ## 27/04/2020
 Coding:
