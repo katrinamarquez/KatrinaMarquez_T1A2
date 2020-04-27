@@ -9,6 +9,11 @@ def welcome
   puts "🅂🅄🄿🄿🄻🄸🄴🅁🄼🄰🅃🄴"
 end
 
+def menu
+  puts "Are you a Supplier or Customer?".colorize(:blue)
+  puts "s: Supplier".colorize(:blue)
+  puts "c: customer".colorize(:blue)
+end
 # User has selected supplier.
 def supplier_menu   
   # Option for supplier does not change like Consumer menu options. Keep supplier_menu as message for simplicity.               
