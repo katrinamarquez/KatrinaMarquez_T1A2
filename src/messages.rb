@@ -1,5 +1,4 @@
 require "colorize"
-require "tty-prompt"
 # Make interface look better in terminal. 
 LINE = "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 DIVIDER = " - - -"

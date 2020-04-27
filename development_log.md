@@ -1,10 +1,10 @@
-# 20/04/2020
+## 20/04/2020
 Majority of the afternoon was spent figuring out which idea to build for the ruby terminal app assessment. My initial idea was an cooking guide for steak. It would cover storage, cooking and different cuts. The main issue was that this may have limited scope to cover enough methods, classes, ruby gems, etc. 
 
 
 As a result, I started scoping an app where customer can order products from suppliers. Suppliers and customers would have different options when using the app. This version of the app would allow me to extend scope if required.
 
-# 21/04/2020 
+## 21/04/2020 
 The morning focused on documentation and project planning. Documentation that was created: 
 - started README;
 - flow chart for Suppliers; and 
@@ -29,7 +29,7 @@ Coding started for the first page users encounter when using the terminal app.
 
 ![Trello Card Example] (Documents/Welcome Message Trello Card.png)
 
-# 22/04/2020 
+## 22/04/2020 
 Coding completed:
 - Welcome message
 - Supplier menu
@@ -41,7 +41,7 @@ Coding completed:
 First bug card created for list of products for sale being printed twice in the terminal. 
 ![Example of Bug Card] (Documents/Example Bug Card.png)
 
-# 23/04/2020 
+## 23/04/2020 
 Coding completed:
 - Function for when a customer is purchasing a product. This took a while as I wanted to show the total price of the order after adding an item to the order array.
 - Resolved bugs that came about from coding yesterday. 
@@ -54,7 +54,7 @@ The main reason for the change resulted from how the options were flowing from t
 Tello Board:
 ![Trello Board 23 April] (Documents/Board at 23 April 2020.png)
 
-# 24/04/2020 
+## 24/04/2020 
 Coding completed:
 - Added in colorize ruby gem. Make identifying parts of the text more obvious to the user in the terminal. 
 
@@ -74,7 +74,7 @@ Documentation completed:
 Trello Board:
 ![Trello Board 24 April] (Documents/Board at 24 April 2020.png)
 
-# 25/04/2020 
+## 25/04/2020 
 Coding completed:
 - Review and refactored code for when customer is purchasing a product. Difficulty getting total figure for customer orders printing. 
 
@@ -82,7 +82,7 @@ The logic required for the customer experience when ordering the app was difficu
 
 I had difficulty around the looping and getting the right information from hases and arrays and figuring out where messages and logic should sit on the files. See product.rb page > def order_product for final logic.  
 
-# 26/04/2020 
+## 26/04/2020 
 Coding completed:
 - Total dollar value of customer order completed. Tidied up code to ensure that invoice for customer is printing correctly. Changed method of calculating total invoice for customer order to case statement. 
 - Added class for customer. Create a class when the customer is adding in their contact details after ordering. This input from the customer would finalise the customers order and exit the app. 
@@ -96,10 +96,11 @@ Documentation:
 Trello Board:
 ![Trello Board 26 April] (Documents/Board at 26 April 2020.png)
 
-# 27/04/2020
+## 27/04/2020
 Coding:
 - Added in ruby gem tty-prompt. This makes menu selection with the loops easier to manage. Looping makes sense and is less confusing for the user. 
 
 Documentation:
 - Running tests on tty-prompt changes. 
 - Added in ASCII art to make UI appealing.
+- Readme.md completed. 
