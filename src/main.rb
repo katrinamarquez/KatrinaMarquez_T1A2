@@ -13,9 +13,10 @@ require_relative 'classes/supplier.rb'
 
 name = ARGV.first 
 puts welcome
-# Command line argument welcoming user [name] to the app. 
+# Command line argument welcoming user. ruby main.rb [name]. 
 if ARGV.length > 0
   puts "Welcome #{name}!"
+# Fall back is only ruby main.rb is entered. 
 else ARGV.length == 0
     puts "Welcome friend!"
 end 
